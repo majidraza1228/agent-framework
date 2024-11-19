@@ -2,6 +2,8 @@
 
 Agent Framework is a Python framework for building capable, context-aware AI agents. It provides a flexible foundation for creating AI agents with distinct personas, managed instructions, conversational memory, and strategic planning capabilities.
 
+![Agent Framework](../agent_framework.png)
+
 ## Features ✨
 
 - **🎭 Persona Management**: Define distinct personalities and roles for your agents
