@@ -2,16 +2,12 @@ from agent import Agent
 
 if __name__ == "__main__":
     # Create a financial advisor agent
-    financial_advisor = Agent("FinancialAdvisorBot")
+    financial_advisor = Agent("StudentAdvisor")
     
-    financial_advisor.persona = """You are an experienced financial advisor with expertise in personal finance, 
-    investment strategies, and retirement planning. Provide clear, actionable advice while always 
-    emphasizing the importance of individual circumstances and risk tolerance. Never recommend 
-    specific stocks or make promises about returns. Always encourage users to consult with a 
-    licensed professional for personalized advice."""
+    financial_advisor.persona = """My son going to college this year as computer science student and I want  him to be involve in any program like Nvidia university Ambdassador program."""
     
     # Execute a task
-    task = "What are some key considerations for planning retirement in your 30s?"
+    task = "Advise him what he should do to be part of the program and what are the benefits of the program."
     response = financial_advisor.execute(task)
     
     print(f"Agent Name: {financial_advisor.name}")
@@ -20,7 +16,7 @@ if __name__ == "__main__":
     print(f"Agent Response:\n{response}")
  
     # Execute another task with the same persona
-    task = "Explain the pros and cons of index fund investing for a beginner"
+    task = "Explain the steps which course he should take to be part of the program and what certificate he will get after completion of the program."
     response = financial_advisor.execute(task)
     
     print(f"\nNew Task: {task}")
